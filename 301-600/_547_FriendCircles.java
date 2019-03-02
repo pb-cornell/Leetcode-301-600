@@ -45,6 +45,8 @@ public class _547_FriendCircles {
 
      time : O(edges * nodes)
      space : O(n)
+     
+     DFS time : O(V + E)
      */
 
     public int findCircleNum(int[][] M) {
